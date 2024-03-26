@@ -4,9 +4,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Asana Copy Bookmarklet</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 16px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #0D0E10;
+    }
+
+    main {
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      margin-top: 1.5em;
+    }
+
+    .bookmarklet {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #F06A6A;
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+      border-radius: 6px;
+      height: 28px;
+      line-height: 28px;
+      text-decoration: none;
+      padding: 0 8px;
+    }
+  </style>
 </head>
 <body>
-  <p>Drag the link below into your bookmarks bar!</p>
-  <a href="HREF_GOES_HERE" class="bookmarklet">Copy Asana Link</a>
+  <main>
+    <h1>Asana Copy Bookmarklet</h1>
+
+    <p>This is a simple bookmarket to write a link for the currently open Asana task to your clipboard.</p>
+    <p>It will copy both the task name and URL as an HTML anchor link that you can use to easily paste into Slack, Gmail, etc.</p>
+
+    <p>See the code on <a href="https://github.com/Pixelrobin/asana-copy-bookmarklet">GitHub</a>.</p>
+
+    <h2>Step 1</h2>
+    <p>Drag the link/button below into your bookmarks bar!</p>
+    <a href="HREF_GOES_HERE" class="bookmarklet">Copy Asana Link</a>
+
+    <h2>Step 2</h2>
+    <p>Visit any Asana Page with a task open and click the bookmark. If successful, you'll see the page flash like a camera.</p>
+
+    <h2>Step 3</h2>
+    <p>Paste the link as needed anywhere that supports basic html rich text. Slack, Gmail, Google Docs, etc.</p>
+  </main>
 </body>
 </html>
