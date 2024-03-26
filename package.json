@@ -1,0 +1,16 @@
+{
+  "name": "asana-copy-bookmarklet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "uglify-js": "^3.17.4"
+  },
+  "type": "module"
+}
